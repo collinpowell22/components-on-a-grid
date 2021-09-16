@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
-
+  background-color: ##f2f1ed;
+  font-family: Georgia, serif;
+  line-height: 1.5;
 }
 
 *,
@@ -13,7 +15,7 @@ html {
 body {
 
   display: grid;
-  grid-template-columns: 2 2;
+  margin: 0;
 }
 
 img {
@@ -33,14 +35,20 @@ h1 {
 
 h2 {
 
-  font-family: Patua One, sans-serif;
+  font-family: "Patua One", sans-serif;
+  color: #30658d;
 }
 
 ul {
 
-  font-family: Patua One, sans-serif;
+  font-family: "Patua One", sans-serif;
   color: #fff;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+p {
+
+  font-family: Georgia, serif;
 }
